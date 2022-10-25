@@ -5,6 +5,8 @@ font-family: roboto,sans-serif;
 .header {
 background-color: #1f2937;
 color: #f9faf8;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 ul {
@@ -40,17 +42,21 @@ padding: 10px;
     color: #e5e7eb;
 }
 
-.text {
-display: flex;
-flex-direction: column;
-padding: 16px;
-}
-
 .textgroup {
     display: flex;
-    justify-content: center;
+    flex: 1;
+    height: 400px;
     align-items: center;
+    justify-content: space-between;
 }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    align-items:flex-start
+    }
 
 button {
     font-size: 18px;
@@ -59,4 +65,15 @@ button {
     color: #f9faf8;
     border-radius: 8px;
     border-style: none;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+
+.section1{
+    background-color: #f9faf8;
+    color: #1f2937;
 }
